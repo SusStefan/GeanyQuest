@@ -1,0 +1,374 @@
+
+/*BACKGROUND*/
+html {zoom: 90%;}
+#cause{
+  color:pink;
+}
+#favor{
+  color:lime
+}
+.aal{
+  font-size:30px;
+}
+#red{
+  position: relative;
+  top:10px;}
+#restart{
+  width:100px;
+  height:50px;
+  background-color: lime;
+  position: inherit;
+  left:100px
+
+}
+#moar{
+  display: none;
+  width:300px;
+  height: 300px;
+  background-color: black;
+  border: 5px solid white;
+  position: relative;
+  left:700px;
+  top:200px;
+  text-align: center;
+}
+.body {
+margin:0;
+border:10px solid black;
+height:965px;
+background-image: linear-gradient(pink , magenta,purple );
+}
+
+/*DISPLAY*/
+#gbar{
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  background-color:  black;
+  border:10px solid white;
+  left:30%;
+  bottom: 20%;
+align-items: center;
+}
+#abar{
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  background-color:  black;
+  border:10px solid white;
+  left:50%;
+  bottom: 20%;
+align-items: center;
+}
+h1 {
+ color: white;
+justify-content: space-around;
+
+
+}
+
+button{
+background-color: rgb(0, 0, 0);
+height:50px;
+width:1750px;
+text-align: justify;
+
+}
+
+#hatz{
+background-color:red;
+
+}
+
+#stats {
+  position: relative;
+  flex-wrap: wrap;
+  width:250px ;
+  z-index: 1;
+}
+#info {
+  position: relative;
+  display: flex;
+  width:1900px;
+  border:0px;
+  left:-10px;
+  top:0px;
+  background-color: rgb(0, 0, 0);
+  
+  
+}
+img{
+  position: relative;
+  align-self: left;
+ left:70%
+}
+
+/*MY-HEALTH-BOX*/
+
+.health-box{
+  height: 50px;
+  width: 200px;  
+  margin:0 auto;
+  position: relative;
+  background-color: rgb(129, 107, 107);
+  border: solid 1px white;
+  
+  
+}
+
+.health-bar{
+  height: 50px;
+  width: inherit;
+  z-index: 2;
+  position: relative;
+  background-color: green;  
+}
+
+#icon{
+  position: relative;
+  left:30%;
+  width: 120px;
+  height: 120px;
+  background-size:cover ;
+  background-image: url("Capture.PNG");
+}
+#aicon{
+  position: relative;
+  left:30%;
+  width: 120px;
+  height: 120px;
+  background-size:cover ;
+  background-image: url("bob.png");
+}
+#aname{position: relative;text-align: center;}
+#name{position: relative;text-align: center;}
+#hp,#sp,#ahp{position:relative; color: white; font-size: 40px;text-align: center;top:-30px}
+#sp{top:-70px;color:cyan}
+.buts{position: relative;
+  text-align: center;
+  width: 70px;
+  height: 100px;
+  border:5px solid gray;
+}
+.buts:hover{
+  border:5px solid white;
+}
+#basic,#abasic{top:-100px;}
+#abasic{top:-15px;left:60px;}
+#item{top:-320px;left:110px;}
+#magic,#amagic{top:-210px;left:210px;}
+#amagic{top:-125px;left: 160px;}
+.health-bar-text{
+position:relative;
+color:white;
+font-size: 250%;
+text-align:center;
+top:-50px;
+z-index: 10;
+}
+
+/*TP BOX*/
+.tp-box{
+  height: 20px;
+  width: 200px;  
+  margin:0 auto;
+  position: relative;
+  background-color: rgb(128, 128, 128);
+  border: solid 1px white; 
+}
+
+.tp-bar{
+  height: 20px;
+  width: inherit;
+  z-index: 2;
+  display:flex;
+  position: relative;
+  background-color: yellow;  
+}
+
+.tp-bar-text{
+  position:relative;
+  color:white;
+  font-size: 150%;
+  text-align:center;
+  
+  z-index: 10;
+  
+  
+  }
+/*ENEMY*/
+
+#text, #enemitxt, #abone {color:white;
+  font-size:150%;
+  text-align: center;}
+#e{position:relative;}
+  #pii{ display: none;
+    width:600px;
+    height:500px;
+  position: relative;
+
+top:100px}
+#pi{display:none;
+  width:300px;
+height:300px;
+position:relative;
+
+top:100px;}
+
+.enem {
+    position: relative;
+    display: flex;
+    width: 400px;
+    height: 250px;
+    top:100px;
+    left: 600px;
+  }
+  #enem {
+    src: "geany.png";
+  }
+  #spune{
+    display: none;
+    width: 400px;
+    height: 200px;
+    background-color: black;
+    border: solid white;
+    position:relative;
+    top:-200px;
+    left:200px;
+  }
+  #estat{
+   
+    height:50px;
+    position: relative;
+    top:1px;
+    left:1px;
+    text-align: top;
+    font-size: 150%;
+    justify-content: left;
+  }
+  
+  #enemitxt{
+    position: relative;
+    top:-35px;
+  }
+  
+  /*ENEMY-HEALTH-BAR*/
+  .e-health-bar{
+    height: 50px;
+    width: inherit;
+    z-index: 2;
+    position: relative;
+    background-color: green;  
+  }
+  
+  .e-health-bar-damage
+  {
+   widows: 100%;
+   height:100%;
+   height: 50px;
+   position:relative;
+   top:-100px;
+   background-color:rgb(241, 0, 0);
+   z-index: 0;
+  }
+  .e-health-bar-shield
+  {
+   widows: 100%;
+   height:100%;
+   top: -50px;
+   position:relative;
+   background-color:rgb(150, 150, 190); 
+  }
+  
+    
+  
+  .e-health-bar-text{
+    position: relative;
+    color:white;
+    font-size:150%;
+    
+    left:200px;
+  }
+  
+  .e-health-box{
+    left:20px;
+    height: 50px;
+    width: 1000px;
+    margin:0 auto;
+    position: relative;
+    background-color: grey;
+    border: solid 1px white;
+  }
+  
+  #enemydamage, #enemystatus{
+    width:200px;
+    height:50px;
+    position: relative;
+    top:-100px;
+    left:1100px;
+    
+  }
+  
+  #playerdamage{
+    width:200px;
+    height:50px;
+    z-index:5;
+    position: absolute;
+    top:500px;
+    left:500px;
+  }
+  
+  .enemydamage, .playerdamage, .enemystatus{
+    color:white;
+    font-family: Impact;
+    font-size:200%;
+  }
+
+  .playerdamage
+  {
+    position: relative;
+    top:-100px;
+  }
+
+  #abone{
+    
+    height: 50px;
+    position: relative;
+    top:30px;
+    left:-470px;
+  }
+
+  #abtwo{
+    
+    height: 50px;
+    position: relative;
+    top:100px;
+    left:-687px;
+    font-size:150%;
+  }
+  
+  #abthree{
+    height: 50px;
+    position: relative;
+    top:55px;
+    left:-587px;
+    font-size:150%;
+  }
+  
+#moar{
+  position: absolute;
+  width: 400px;
+height: 300px;
+background-color: white;
+border: 10px solid purple;
+text-align: center;
+left:40%;
+top:40%;
+}
+.aal{font-size: 40px;
+  color:red}
+  #restart{width: 100px;
+  height:50px;
+background-color: crimson;
+position:relative; left:35%;  }
+#red{color:white;font-size:30px;}

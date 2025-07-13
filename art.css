@@ -1,0 +1,369 @@
+body{
+  background-color:rgb(23,53,40);
+}
+
+
+
+.dialog{
+  position: relative;
+  background-color: beige;
+  z-index: 200;
+  border:10px solid black;
+  width:500px;
+  height:100px;
+}
+#aa{display: none;
+  background-color: burlywood;
+  border:10px solid chocolate;
+  text-align: center;
+  position: absolute;
+  top:10px
+}
+.cacat{
+  color: brown;
+  font-size: 30px;
+  font-family: Impact;
+}
+#bobit{display: none;
+  display: none;
+ position:absolute;
+height: 200px;
+left:300px;
+top:300px;
+
+}
+#bobita{ display: none;
+  position: absolute;
+  left:1000px;
+  width:700px;
+  height: 600px;
+  top:200px;
+}
+
+#vb{
+  color:red;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+
+
+
+
+
+
+
+#mmam{display: none;
+position: absolute;
+left:400px;
+top:300px;}
+#mmamm{display: none;
+  position: absolute;
+  left:410px;
+  top: 333px;
+height: 510px;
+background-size: cover;}
+#unu{
+  position: relative;
+  top:-60px;
+  font-size: 30px;
+  color:red;
+}#doi{ color:red;
+  position: relative;
+  top:-80px;
+  font-size: 30px;
+}#trei{ color:red;
+  position: relative;
+  top:-100px;
+  font-size: 30px;
+}#patru{ color:red;
+  position: relative;
+  top:-120px;
+  font-size: 30px;
+}#cinci{ color:red;
+  position: relative;
+  top:-140px;
+  font-size: 30px;
+}#sase{ color:red;
+  position: relative;
+  top:-160px;
+  font-size: 30px;
+}#sapte{ color:red;
+  position: relative;
+  top:-180px;
+  font-size: 30px;
+}#opt{ color:red;
+  position: relative;
+  top:-200px;
+  font-size: 30px;
+}
+.done{ position: relative;
+  color:red;
+  z-index:100;
+  font-size:30px;
+  top:-120px;
+}
+.dif{ position: relative;
+  color:red;
+  z-index:100;
+  font-size:30px;
+  top:-120px;
+}
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  width: 400px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  left:550px;
+  top:-100px;
+}
+iframe{
+  position: relative;
+  top:-625px;
+  left:1105px;
+  width:400px;
+  height: 500px;
+}
+#harta{
+  width:1000px;
+  height:500px;
+  position: relative;
+  left:400px;
+  top:-120px;
+  transform: rotateY(90);
+}
+video{
+  position: relative;
+  left:250px;
+}
+#loading{
+  color:white;
+  font-size: 100px;
+  top:-50px
+}
+#loadingh{
+  color:white;
+  font-size: 45px;
+  top:-20px
+}
+.geany{
+ 
+  position: relative;
+  top:-30px;
+}
+#minfo{
+  position: relative;
+  width: 100px;
+  height: 50px;
+  background-color: yellowgreen;
+  z-index: 200;
+  left:700px;
+  top:-180px;
+  text-align: center;
+}
+#stanga{
+  position: relative;
+  width: 100px;
+  height: 50px;
+  background-color: yellowgreen;
+  top:-43px;
+  left:550px;
+  text-align: center;
+}
+#ce{width: 290px;
+height: 190px;
+border:10px solid green;
+background-color: lime;
+position: absolute;
+top:400px;
+left: 50px;}
+#fade{width:100%;
+height: 100%;
+z-index:9000;
+opacity: 0;
+display: none;
+position: fixed;
+top:0px;
+left:0px;
+background-color: black;}
+.mision{
+  width: 350px;
+  height: 500px;
+ position: absolute;
+ left:1450px;
+ top:265px;
+  background-image: url("Captu.PNG"); 
+}
+#drepta{
+  width: 100px;
+  height: 50px;
+ position: relative;
+  background-color: yellowgreen;
+  top:-111px;
+  left:850px;
+  text-align: center;
+}
+
+#info{
+  color:yellowgreen;
+  font-size:50px;
+  top:-20px;
+}
+audio
+{ display: none;
+  position: relative;
+  top:-250px;
+}
+p{
+  color:rgb(13, 41, 13);
+  position:relative;
+  top:30px;
+  text-align: center;
+  font-size: large;
+  font-family: Impact;
+}
+img{
+  position: relative;
+  left:600px;
+}
+#joaca{
+  width: 100px;
+  height: 100px;
+ position: relative;
+  background-color: yellowgreen;
+  top:-411px;
+  left:1050px;
+ 
+}
+#img{width: 300px;height:200px;top:-30px;}
+b{
+  color:white;
+  position: relative;
+  top:15px;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#kkk{
+  color:white;
+  top:-30px
+}
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: green;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: lime;
+}
+
+#close{
+  position: absolute;
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  left:949px;
+  top:1px
+  
+
+}
+#op{
+  display: none;
+  position:absolute;
+  z-index: 3;
+  width: 1000px;
+  height: 650px;
+  left:300px;
+  top:50px;
+  background-color: greenyellow;
+}
+#play{position:relative;
+  width:200px;
+  height:75px;
+  background-color: lime;
+  left:700px;
+  top:50px;
+}
+#options{position:relative;
+  width:200px;
+  height:75px;
+  background-color: lime;
+  left:700px;
+  top:75px;
+}
+#exit{position:relative;
+  width:200px;
+  height:75px;
+  background-color: lime;
+  left:700px;
+  top:100px;
+}

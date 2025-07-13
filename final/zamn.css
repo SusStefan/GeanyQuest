@@ -1,0 +1,5 @@
+canvas{background-size: cover;
+  background-image:url("cage.png");
+  position: absolute;
+  top:20px;
+}

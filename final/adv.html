@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="ender.css">
+  
+  
+  <title>Adevarul...</title>
+<body>
+    <style>
+        #first
+{
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  background-image: url("fighter.jpg");
+  background-size: cover;
+}
+#textbox{
+  position:absolute;
+  width:600px;
+  height: 300px;
+  background-color: burlywood;
+  left:10%;
+  top:30%;
+  border: 10px solid red;
+}
+#txt{
+  color: purple;
+  font-size: 300%;
+
+}
+#personaj{background-size: cover;
+width: 600px;
+height: 360px;
+position: absolute;
+top:230px;
+right:200px;  
+background-image: url("../prot.png");
+
+}
+    </style>
+    <script>
+        $("#txt").css("color","purple");
+        $("body").css("background-size","cover")
+$("body").css("background-image","url(../trueend.jpg)")
+        var intense = new Audio("../no.mp3");
+intense.loop = true;
+var change = new Audio("../change.mp4");
+change.loop = true;
+change.volume=0.5;
+change.currentTime= 102;
+intense.play();
+$("body").click(function(){  
+$("#personaj").css("background-image","url('sard.png')");
+$("#textbox").css("border","10px solid purple");
+$("#textbox").css("background-color","magenta");
+$("#txt").css("color","purple");
+$("#txt").html("Ardiles?: Nu puteti opri inevitabilul... Timpul mortii vine incet dar sigur"); 
+    
+$("body").click(function(){  
+    $("#txt").html("Ardiles?: Puteti sa ne incetiniti, dar este inevitabil: INTUNERICUL VA FI PESTE TOT !");
+    $("body").click(function(){  
+$("#personaj").css("background-image","url('../prot.png')");
+$("#textbox").css("border","10px solid red");
+$("#textbox").css("background-color","burlywood");
+$("#txt").css("color","purple");
+$("#txt").html("Geany: Pfuaaaa, dar multi mai sunteti sa moara mama, ia ca m-am saturat de voi ! ITI DAU O PALMA DE NU TE VEZI"); 
+
+    $("body").click(function(){  
+$("#personaj").css("background-image","url('sard.png')");
+$("#textbox").css("border","none");
+$("#textbox").css("background-color","transparent");
+$("#txt").css("color","red");
+$("#txt").css("text-shadow"," 2px 2px #ff0000");
+$("#txt").html("Click pe Ardiles pentru a-i da o palma"); 
+$("body").click(function(){ 
+    $("#personaj").css("background-image","url('sincer.png')");
+    $("#textbox").css("border","10px solid red");
+$("#textbox").css("background-color","burlywood");
+$("#txt").css("color","blue");
+$("#txt").css("text-shadow"," 0px 0px #ff0000");
+$("#txt").html("Ardiles: Au :(( ... Stai putin, IMI AMINTESC TOT");
+$("body").click(function(){ window.location.href="adevarul.html"
+    })})})})})})
+    </script>
+  <canvas id="canvas"></canvas>
+<div id="first">
+<div id="personaj"></div>
+<div id="textbox"><p id="txt">Geany: Te-am prajit bre branzoiule !</div> 
+</div>
+
+</body>
+</html>

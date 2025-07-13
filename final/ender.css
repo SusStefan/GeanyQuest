@@ -1,0 +1,41 @@
+canvas{
+  display: none;
+  background-size: cover;
+  background-image:url("cage.png");
+  position: absolute;
+  top:20px;
+}
+
+#first
+{
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  background-image: url("fighter.jpg");
+  background-size: cover;
+}
+#textbox{
+  position:absolute;
+  width:600px;
+  height: 300px;
+  background-color: purple;
+  left:10%;
+  top:30%;
+  border: 10px solid rgb(82, 0, 82);
+}
+#txt{
+  color: green;
+  font-size: 300%;
+
+}
+#personaj{
+width: 600px;
+height: 360px;
+position: absolute;
+top:230px;
+right:200px;  
+background-image: url("shadow.png");
+
+}

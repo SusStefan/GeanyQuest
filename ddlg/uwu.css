@@ -1,0 +1,314 @@
+body{
+  background-color:pink;
+  background-repeat: no-repeat;
+  background-size: 1550px;
+  background-position: center top;
+  position: relative;
+  top: -50px;
+}
+#scar{
+  font-size: 50px;
+  font-family: Broadway;
+}
+#key{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top:770px;
+  left: 1200px;
+  background-image: url("keyy.png");
+}
+#keypad{ position: absolute;
+  display: none;
+  width: 265px;
+  height: 265px;
+  top:320px;
+  left: 470px;
+}
+#papers{ position: absolute;
+ display: none;
+  width: 145px;
+  height: 165px;
+  top:470px;
+  left: 1220px;
+  
+}
+#timer{z-index: 30000;
+  display: none;
+  width:100px;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+  left:1607px;
+  top:40px;
+  text-align: center;
+  border: 10px solid white;
+}
+#time{color:white;
+  position: relative;
+  top:-30px;
+  z-index: 30000;
+font-size: xx-large;}
+#keytext{position: relative;
+left: -100px;
+top:-50px;
+font-size: 20px;
+font-family: Impact;}
+#keyhole{ position: absolute;
+  display: none;
+  width: 35px;
+  height: 35px;
+  top:710px;
+  left: 1681px;
+
+}
+#eye{position: absolute;
+  width: 205px;
+  display: none;
+  height: 165px;
+  top:580px;
+  left: 790px;
+  background-repeat: no-repeat;
+  background-size: cover;
+background-image: url("ey.png");}
+#u{position: absolute;
+  width:165px;
+  height: 180px;
+  top:735px;
+  left: 625px;
+  display: none;
+  }
+#screen{position: absolute;
+  display: none;
+  left:690px;
+  top:385px;
+  width:600px;
+  height: 100px;
+
+}
+#uuu{position: absolute;
+    width:155px;
+    height: 180px;
+    top:735px;
+    left: 880px;
+   display: none;
+    }
+#broken{position: absolute;
+  width:155px;
+  height: 180px;
+  top:735px;
+  left: 1120px;
+  display: none;
+}
+#broken:hover{ border: 5px solid black;}
+  #uuu:hover{ border: 5px solid black;}
+  #u:hover{border:5px solid black;}
+  #eye:hover{border:5px solid black}  
+#keyhole:hover{border:5px solid black}
+#papers:hover{border:5px solid black}
+#keypad:hover{border:5px solid black}
+#key:hover{border:5px solid black}
+#move-right{  display: none;
+  position: absolute;
+  left:1800px;
+  top: 300px;
+  width:100px;
+  height:400px;
+  background-color: azure;
+}
+#move-left{ display: none;
+  position: absolute;
+  left:10px;
+  top: 300px;
+  width:100px;
+  height:400px;
+  background-color: azure;
+}
+#itm{color:white;
+font-family: Brush Script MT;
+font-size: xx-large;
+float: left;}
+#items{ position: absolute;
+  display: none;
+  top:40px;
+  left:176px;
+  z-index: 30000;
+  width: 300px;
+  height:100px;
+  border:10px solid white;
+  background-color: black;
+}
+#main-item{ position: relative;
+  width: 70px;
+  height:70px;
+  float: right;
+  border: 3px solid white;
+  top:15px;
+  left:-100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#move-back{ display: none;
+  position: absolute;
+  left:200px;
+  top: 820px;
+  width:400px;
+  height:100px;
+  text-align: center;
+  border: 10px solid black;
+  background-color: azure;
+}
+#blur-around { display: none;
+  position: fixed;
+  z-index: 999;
+  pointer-events: none;
+  /* twice the viewport size so it always covers fully */
+  width: 200vw;
+  height: 200vh;
+  /* negative offset by half so we are sure we cover the full viewport */
+  left: -100vw;
+  top: -100vh;
+  /* we'll use transform translate to move it */
+  transform-origin: center;  
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(25px);
+  -webkit-mask-image: radial-gradient(100px at 50% 50%, transparent 100%, black 100%);
+  mask-image: radial-gradient(100px at 50% 50% , transparent 100%, black 100%)
+}
+.opt{ display: none;
+  width: 400px;
+  height:150px;
+  border: 10px solid pink;
+  z-index:1000;
+  background-color: palevioletred;
+  position: absolute;
+  top:200px;
+  left: 400px;
+}
+#two{
+  left:1000px}
+#three{
+  top:400px
+}
+#four{top:400px;left:1000px;}
+#smart{
+  color:rgb(13, 41, 13);
+  position:relative;
+  top:-3px;
+  left:-7px;
+  text-align: center;
+  font-size: large;
+  font-family: Impact;
+}
+#geany{
+  position: relative;
+  top:100px;
+}
+#minfo{
+  position: relative;
+  width: 100px;
+  height: 50px;
+  background-color: yellowgreen;
+  z-index: 200;
+  left:700px;
+  top:-180px;
+  text-align: center;
+}
+#stanga{
+  position: relative;
+  width: 100px;
+  height: 50px;
+  background-color: yellowgreen;
+  top:-43px;
+  left:550px;
+  text-align: center;
+}
+.gayshit{
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+  font-family: Brush Script MT;
+}
+#scary{
+  display: none;
+  position: absolute;
+  z-index: 10000;
+  left:-10px;
+  display: inherit;
+width: 1922px;
+height: 945px;
+background-image:url("purici.jpg")}
+#text{
+  font-weight: bold;
+}
+#cilck{
+  position: absolute;
+  top:100px;
+  left:300px;
+}
+.jimin{position: absolute;
+  border: 10px solid white;
+  width: 200px;
+  height:200px;
+  background-color: plum;
+}
+#name{
+  position: relative;
+  top:630px;
+  left:300px;
+  height:70px ;
+}
+#namer{ position: relative;
+  top:-45px;
+}
+#diag{
+  top:700px;
+  overflow-wrap: break-word;
+  left:300px;
+  width: 1200px;
+  height:200px;
+}
+#omggu{ 
+  position: absolute;
+  top:100px;
+  left:600px;
+}
+#info{ position: inherit;
+  font-family: Impact;
+  color:yellowgreen;
+  font-size:50px;
+  top:-300px;
+  left:1200px;
+}
+#butz{ position: relative;
+left:800px;
+top:-100px;}
+#loading{ position: relative;
+  font-family: Impact;
+  color:white;
+  font-size: 100px;
+  top:-50px;
+  left:500px;
+}
+#drepta{
+  width: 100px;
+  height: 50px;
+ position: relative;
+  background-color: yellowgreen;
+  top:-111px;
+  left:850px;
+  text-align: center;
+}
+#img{ position: relative;
+  left:600px;
+  width: 400px;height:300px;top:-30px;}
+  #joaca{
+    width: 600px;
+    height: 100px;
+    text-align: center;
+   position: relative;
+    background-color: yellowgreen;
+    top:-211px;
+    left:-250px;
+   
+  }

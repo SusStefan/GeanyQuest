@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="ender.css">
+  
+  
+  <title>Foarte aproape</title>
+<body>
+    <style>
+        #first
+{
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  background-image: url("fighter.jpg");
+  background-size: cover;
+}
+#textbox{
+  position:absolute;
+  width:600px;
+  height: 300px;
+  background-color: burlywood;
+  left:10%;
+  top:30%;
+  border: 10px solid red;
+}
+#txt{
+  color: white;
+  font-size: 300%;
+
+}
+#personaj{background-size: cover;
+width: 600px;
+height: 360px;
+position: absolute;
+top:230px;
+right:200px;  
+background-image: url("../prot.png");
+
+}
+    </style>
+    <script>
+$("body").css("background-image","url(las.jpg)")
+var change = new Audio("change.mp4");
+change.loop = true;
+change.volume=0.5;
+change.currentTime= 102;
+change.play()
+$("body").click(function(){  
+$("#personaj").css("background-image","url('../componente/imagine/bob.png')");
+$("#textbox").css("border","10px solid red");
+$("#textbox").css("background-color","burlywood");
+$("#txt").css("color","green");
+$("#txt").html("Bobitza: Ba dar ce cacat sunt chestiile alea ??? BAAA FUGITI!!");
+$("body").click(function(){  
+    $("#txt").css("color","MAGENTA");
+  $("#personaj").css("background-image","url('cshoot/enemy.png')");
+  $("#txt").html("Bestie: Sa stii ca am si eu sentimente ! Foarte urat din partea ta !");
+  $("body").click(function(){  
+    $("#txt").css("color","purple");
+    $("#personaj").css("background-image","url('cshoot/branza.png')");
+    $("#txt").html("Branzoi: VOI VA LUATI DE ANIMALELE MELE??? VETI MURI PENTRU ASTA !!!! ");
+    $("body").click(function(){  
+        $("#txt").css("color","red");
+        $("#personaj").css("background-image","url('pvz/Imagini/roby.png')");
+    $("#txt").html("Roby: Stati linistiti, baieti ! Ma ocup eu de acesti delicventi !");
+    $("body").click(function(){ 
+       window.location.href="cshoot/vander.html"; 
+    }) 
+    })})})})
+    </script>
+  <canvas id="canvas"></canvas>
+<div id="first">
+<div id="personaj"></div>
+<div id="textbox"><p id="txt">Geany: Ok! Nu cred ca mai avem mult, aici eram ultima oara !</div> 
+</div>
+
+</body>
+</html>

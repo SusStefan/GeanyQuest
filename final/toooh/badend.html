@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="ender.css">
+  
+  
+  <title>uhhhh</title>
+<body>
+    <style>
+        #first
+{
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  background-image: url("fighter.jpg");
+  background-size: cover;
+}
+#textbox{
+  position:absolute;
+  width:600px;
+  height: 300px;
+  background-color: burlywood;
+  left:10%;
+  top:30%;
+  border: 10px solid red;
+}
+#txt{
+  color: white;
+  font-size: 300%;
+
+}
+#personaj{background-size: cover;
+width: 600px;
+height: 360px;
+position: absolute;
+top:230px;
+right:200px;  
+background-image: url("../../prot.png");
+
+}
+    </style>
+    <script>
+      $(document).ready(function(){
+        $("body").css("background-size","cover")
+$("body").css("background-image","url(../borci.png)")
+var intense = new Audio("../change.mp4");
+intense.loop = true;
+intense.play();
+$("body").click(function(){  
+$("#textbox").css("border","10px solid red");
+$("#textbox").css("background-color","burlywood");
+$("#txt").html("Geany: Nu mai e nimeni... toti au disparut... DOAMNE CE AM FACUT!!!");
+$("body").click(function(){  
+  $("#textbox").css("border","10px solid rgb(82, 0, 82)");
+      $("#textbox").css("background-color","purple");
+  $("#personaj").css("background-image","url('../shadow.png')");
+  $("#txt").html("???:Nu toti au disparut geany, eu am ramas. Cum sa imi parasesc creatorul !");
+  $("body").click(function(){ 
+    $("#textbox").css("border","10px solid red");
+$("#textbox").css("background-color","burlywood"); 
+    $("#personaj").css("background-image","url('../../serios.png')");
+    $("#txt").html("Geany: Da, dar nu asta mi-am dorit... voiam sa fac si eu o farsa, nu sa ii omor ");
+    $("body").click(function(){  
+      $("#textbox").css("border","10px solid rgb(82, 0, 82)");
+      $("#textbox").css("background-color","purple");
+        $("#personaj").css("background-image","url('../shadow.png')");
+    $("#txt").html("???:Lasa-i geany!! Satul este distrus, dar lumea este inca neschimbata!");
+    $("body").click(function(){ 
+      $("#textbox").css("border","10px solid rgb(82, 0, 82)");
+      $("#textbox").css("background-color","purple");
+      $("#personaj").css("background-image","url('../scary.png')");
+    $("#txt").html("???:Putem domina si distruge lumea asta I m p r e u n a ! Combinatia suprema !");
+    $("body").click(function(){ 
+      $("#textbox").css("border","10px solid red");
+$("#textbox").css("background-color","burlywood");
+      $("#personaj").css("background-image","url('../../serios.png')");
+    $("#txt").html("Geany: NU, nu voi face asta! Tu, TU ESTI RESPONSABIL PENTRU CE S-A INTAMPLAT ");
+    $("body").click(function(){ 
+      $("#personaj").css("background-image","url('../../serios.png')");
+    $("#txt").html("Geany: Nu te voi lasa sa scapi nepedepsit ");
+    $("body").click(function(){ 
+      $("#textbox").css("border","10px solid rgb(82, 0, 82)");
+      $("#textbox").css("background-color","purple");
+      $("#personaj").css("background-image","url('../shadow.png')");
+    $("#txt").html("???: OFFF, dar prost mai esti! Nu realizezi, geany? Suntem aceeasi persoana ! Mereu am fost ");
+    $("body").click(function(){ 
+      $("#personaj").css("background-image","url('../shadow.png')");
+    $("#txt").html("???: Doar tu m-ai putut vedea , mereu am fost doar un gand in spatele capului tau ");
+    $("body").click(function(){ 
+      $("#personaj").css("background-image","url('../scary.png')");
+    $("#txt").html("???: Dar m-am cam saturat, eu vreau sa conduc acum !! hihihi");
+    $("body").click(function(){ 
+      $("#textbox").css("border","10px solid red");
+$("#textbox").css("background-color","burlywood");      $("#personaj").css("background-image","url('../../serios.png')");
+    $("#txt").html("Geany: NUUUUUUUUUUUUU");
+    $("body").click(function(){ 
+      $("#textbox").css("border","10px solid rgb(82, 0, 82)");
+      $("#textbox").css("background-color","purple");
+        $("#personaj").css("background-image","url('../nuuu.png')");
+        $("#txt").html("Felicitari! Ai obtinut Sfarsitul Rau (shadow). Sfarsitul 2/2");
+        $("body").click(function(){window.location.href="credits.html"; 
+    }) 
+    })})})})})})})})
+    })})})})
+      })
+    </script>
+  <canvas id="canvas"></canvas>
+<div id="first">
+<div id="personaj"></div>
+<div id="textbox"><p id="txt">Geany: Valeleu... ce am facut tata pfoaaa :(( </div> 
+</div>
+
+</body>
+</html>

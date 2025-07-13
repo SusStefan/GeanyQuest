@@ -1,0 +1,307 @@
+body{
+  background-repeat: no-repeat;
+}
+#smart{
+  color:rgb(13, 41, 13);
+  position:relative;
+  top:-3px;
+  left:-7px;
+  text-align: center;
+  font-size: large;
+  font-family: Impact;
+}
+#geany{
+  position: relative;
+  top:100px;
+}
+#minfo{
+  position: relative;
+  width: 100px;
+  height: 50px;
+  background-color: yellowgreen;
+  z-index: 200;
+  left:700px;
+  top:-180px;
+  text-align: center;
+}
+#stanga{
+  position: relative;
+  width: 100px;
+  height: 50px;
+  background-color: yellowgreen;
+  top:-43px;
+  left:550px;
+  text-align: center;
+}
+.gayshit{
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+  font-family: Brush Script MT;
+}
+#scary{
+  display: none;
+  position: absolute;
+  z-index: 10000;
+  left:-10px;
+  display: inherit;
+width: 1922px;
+height: 945px;
+background-image:url("purici.jpg")}
+#text{
+  font-weight: bold;
+}
+#cilck{
+  position: absolute;
+  top:100px;
+  left:300px;
+}
+.jimin{position: absolute;
+  border: 10px solid white;
+  width: 200px;
+  height:200px;
+  background-color: plum;
+}
+#name{
+  position: relative;
+  top:630px;
+  left:300px;
+  height:70px ;
+}
+#namer{ position: relative;
+  top:-45px;
+}
+#diag{
+  top:700px;
+  overflow-wrap: break-word;
+  left:300px;
+  width: 1200px;
+  height:200px;
+}
+#omggu{ 
+  position: absolute;
+  top:100px;
+  left:600px;
+}
+#info{ position: inherit;
+  font-family: Impact;
+  color:yellowgreen;
+  font-size:50px;
+  top:-300px;
+  left:1200px;
+}
+#butz{ position: relative;
+left:800px;
+top:-100px;}
+#loading{ position: relative;
+  font-family: Impact;
+  color:white;
+  font-size: 100px;
+  top:-50px;
+  left:500px;
+}
+#drepta{
+  width: 100px;
+  height: 50px;
+ position: relative;
+  background-color: yellowgreen;
+  top:-111px;
+  left:850px;
+  text-align: center;
+}
+#img{ position: relative;
+  left:600px;
+  width: 400px;height:300px;top:-30px;}
+  #joaca{
+    width: 600px;
+    height: 100px;
+    text-align: center;
+   position: relative;
+    background-color: yellowgreen;
+    top:-211px;
+    left:-250px;
+   
+  }
+
+
+
+
+
+p{
+  color:white;
+  font-size: 40px;
+  font-family: Impact;
+  line-height: 15px;  
+  margin: 15px 15;
+}
+#txt{line-height: 40px; margin:auto;}
+#shop{
+ 
+  text-align: center;
+  width: 150px;
+  height: 80px;
+  border: 10px solid chocolate;
+  float:right
+}
+#pay{
+ 
+  text-align: center;
+  width: 250px;
+  height: 80px;
+  border: 10px solid red;
+  float:right
+}
+#minegrau{
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-color: brown;
+  border:10px solid white;
+  z-index:1;
+  bottom:10px;
+}
+#mineporumb{
+  display:none;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-color: brown;
+  border:10px solid white;
+  z-index:1;
+  bottom:10px;
+  left:300px;
+}
+.porumb{
+  position: absolute;
+  top:300px;
+  z-index:200;
+  width:190px;
+  right:5px;
+  height:400px;
+  background-image: url("lock.PNG");
+}
+
+#meniu{ border:10px solid white;
+  width: 600px;
+  height: 100px;
+  position: absolute;
+  background-color: brown;}
+  #exit{width:40px;height: 40px;background-color: red;border:3px solid #530d0d;
+    position:relative;top:5px;right:-530px}
+    .sell{width:200px;height: 100px;background-color: lime;border:3px solid green;
+      position:relative;top:5px;right:-190px;}
+  .upgrade{position: relative;
+    top:10px;
+    height: 70px;
+    width: 594px;
+    border: 3px solid rgb(82, 12, 12);
+    background-color: sienna;
+    text-align:left;
+   
+  }
+  .ip{ position: relative;
+    top:0px;
+    width: 68px;
+    height: 65px;
+    background-size: cover;
+    border:2px solid brown;
+    float: left;
+  }
+  #sapzz{
+    top:-18px;
+    background-image: url("omg.png");
+  }
+#back{
+display: none;  
+width: 400px;
+height: 300px;
+background-color: black;
+position: absolute;
+top:30%;
+left: 40%;
+border:10px solid white;
+text-align: center;}
+#state{
+  color:red;
+}
+#txtp{position: relative;
+  top: 10%;
+  line-height: 35px;  
+}
+#butones{position: relative;
+width: 100px;
+height: 45px;
+background-color: red;
+left:35%;
+top:10%;
+border: 7px solid brown;}
+
+#tbutones{
+  position: relative;
+  top:-60%;
+}
+
+  #autog{top:20px;display: none;}
+  #poral{ display: none;
+    position: relative;
+    top:100px}
+  #sapall{top:30px;
+  display: none;}
+  .buy{ position: relative;
+    top:-95px;
+    text-align: center;
+    width: 136px;
+    height: 65px;
+    background-size: cover;
+    background-color: red;
+    border:2px solid brown;
+    float: right;
+  }
+  #poral{display: none;
+    top:20px;
+  }
+  #porz{background-image: url("corn.PNG");top:-18px;}
+  #sapz{
+    background-image: url("hoe.PNG");
+  }
+  #autgz{
+    background-image: url("sapa.jpg");
+    top:-18px;
+  }
+  #maga{  display: none;
+    border:10px solid white;
+    position: absolute;
+    top:250px;
+    left:600px;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    background-color: brown;
+  text-align: center;}
+  #tax{  
+    
+    position: absolute;
+    top:10px;
+    left:800px;
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    background-color: brown;
+    border:10px solid white;
+  text-align: center;}
+  #stats{ border:10px solid white;
+    width: 200px;
+    height: 850px;
+    right: 10px;
+    position: absolute;
+    background-color: brown;
+  text-align: center;}
+  #text{text-align: center;
+  width:100px;
+  position: relative;
+  left:10px;
+  bottom: 10px; 
+  float:left;
+  }

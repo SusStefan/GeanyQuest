@@ -1,0 +1,253 @@
+.monitor{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  position: absolute;
+  border: solid gray 30px;
+  left: 1150px;
+  z-index: 3000;
+}
+#cause{
+  color:pink;
+}
+#favor{
+  color:lime
+}
+.aal{
+  font-size:30px;
+}
+#red{
+  position: relative;
+  top:10px;}
+#restart{
+  width:100px;
+  height:50px;
+  background-color: green;
+  position: inherit;
+  left:100px
+
+}
+#moar{
+  display: none;
+  width:300px;
+  height: 300px;
+  background-color: black;
+  border: 5px solid white;
+  position: inherit;
+  left:600px;
+  top:200px;
+  text-align: center;
+}
+#cele{
+  display: none;
+}
+#alcool-bar{
+  width:300px;
+  height: 30px;
+  background-color: gray;
+  position: absolute;
+}
+#alcool{
+  width:300px;
+  height: 24px;
+  background-color: yellow;
+  position: relative;
+  top:4px;
+
+}
+#layout{
+  position: absolute;
+  left:700px;
+top:200px;
+  width:300px;
+  height: 300px;
+}
+#inf{
+  top:20px;
+}
+
+#omg:hover{
+background-color: gray;
+}
+
+.camer
+{
+  cursor: pointer;
+   width: 600px;
+  height:40px;
+  position:relative;
+  background-color:gray;
+  z-index: 3000;
+  border: solid black;
+  top:650px;
+  left:450px;
+  opacity:0.5;
+  text-align: center;
+}
+.camer:hover{
+  background-color: rgb(88, 88, 88);
+}
+#d{
+  position: relative;
+  top:20px;
+}
+.muxic{ position: absolute;
+  left:1450px;
+  top:400px;
+  cursor: pointer;
+  z-index: 3000;
+  height: 300px;
+  width: 50px;
+  background-color:gray;
+  z-index: 3000;
+  border: solid black;
+  opacity:0.5;
+  text-align: center;
+}
+#power{
+  top:50px;
+  color:greenyellow;
+}
+#bau{
+  display: none;
+  width:300px;
+  height:300px;
+  background-color:gray;
+  opacity: 0.8;
+  position: relative;
+  left:600px;
+  top:300px
+}
+.muxic:hover{
+  background-color: rgb(88, 88, 88);
+}
+
+p{position: inherit;
+  font-size: 20px;
+  top:-10px;
+  font-family: sans-serif;
+  color: azure;
+  
+}
+#dai{
+  z-index:3001;
+  color:black;
+  top:-15px
+}
+body
+{
+  background-image: url("casa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.door{
+  width: 200px;
+  height:300px;
+  position:relative;
+  background-image: url("usa.PNG");
+}
+.holder{
+  width: 50px;
+  height:100px;
+  background-color: gray;
+  position: absolute;
+  
+}
+#bint{
+  top:400px
+}
+
+#aint{
+  top:480px;
+  left:770px;
+}
+
+#bopen{
+  cursor: pointer;
+  background-color: limegreen;
+  z-index: 100;
+  width:30px;
+  height:30px;
+  position: relative;
+  left:10px;
+  top:10px
+}
+
+#bopen:hover{
+  background-color: green;
+}
+
+#bclose{
+  cursor: pointer;
+  background-color: red;
+  z-index: 100;
+  width:30px;
+  height:30px;
+  position: relative;
+  left:10px;
+  top:20px
+}
+#bclose:hover{
+  background-color:maroon;
+}
+#aopen{
+  cursor: pointer;
+  background-color: limegreen;
+  z-index: 100;
+  width:30px;
+  height:30px;
+  position: relative;
+  left:10px;
+  top:10px
+}
+#aopen:hover{
+  background-color: green;
+}
+#aclose{
+  cursor: pointer;
+  background-color: red;
+  z-index: 100;
+  width:30px;
+  height:30px;
+  position: relative;
+  left:10px;
+  top:20px
+}
+#aclose:hover{
+  background-color:maroon;
+}
+#afara{
+  display:none;
+  height: 220px;
+  top:440px;
+  left:550px;
+}
+#int{
+  display:none;
+  top:270px;
+  left:100px;
+  height: 400px;
+}
+
+#cams{
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+  height: 500px;
+  width: 1000px;
+  left:250px;
+  top:70px;
+}
+
+#branzoi{
+  display: none;
+  height: 400px;
+  width: 400px;
+  position: relative;
+  top: 100px;
+  left:100px;
+  background-image:url("anib.png");
+}
+

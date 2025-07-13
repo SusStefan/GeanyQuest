@@ -1,0 +1,58 @@
+body{background-color: purple;}
+#text{position: absolute;
+width:400px;
+height: 300px;
+left:1400px;
+top:300px;
+background-color:rgb(85, 0, 85) ;
+background-image:url("hp.png") ;
+
+z-index:300;
+font-size:20px;
+}
+p{color:white;font-size:50px;}
+#sign{color:gold;
+  font-family:serif;
+  font-size:50px;}
+#heart{
+  width: 1200px;
+  height: 880px;
+  background-image: url("heart.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#unu{ position: absolute;
+  top:500px;
+  width:320px;
+  height:350px;
+  background-image: url("amogus.png");
+  z-index: 1000;
+}
+#doi{ position: absolute;
+  top:500px;
+  left:1500px;
+  width:320px;
+  height:350px;
+  background-image: url("amogus.png");
+  z-index: 1000;
+}
+#trei{ position: absolute;
+  top:500px;
+  left:800px;
+  width:320px;
+  height:350px;
+  background-image: url("amogus.png");
+  z-index: 1000;
+}
+#final{ display: none;
+  position: absolute;
+  left:400px;
+  top:350px;
+  font-size: 80px;
+}
+#white{ width: 100%;display: none;
+  height: 100%;
+  position: fixed;
+  background-color: white;
+  opacity: 0; z-index:1000;
+}

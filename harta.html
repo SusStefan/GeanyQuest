@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="art.css"></link>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mission Map</title>
+  <p id="loading">Harta</p>
+  <p class="done"></p>
+  <p class="dif"></p>
+  <img src="map.jpg" id="harta" usemap="#image-map">
+  <form id="jjj">
+    <label for="cod"><p id="kkk">Codul fraiere</p></label>
+    <input type="text" id="fname" name="fname">
+    <input type="button" onclick="CheckCode()" value="Esti gata???">
+    <input type="button" onclick="Back()" value="Sau vrei sa te intorci???">
+  </form>
+  <img id="mmam" src="hell.png">
+  <img id="mmamm" src="death.png">
+  <map name="image-map">
+      <area target="_blank" id="hmm" alt="shadow" title="shadow" onclick="Shadow()" coords="697,175,994,4" shape="rect";>
+      <area target="_blank" id="cg" alt="geany house" title="geany house" onclick="Input()" href="componente/fight.html" coords="117,387,41" shape="circle">
+      <area target="_blank" id="cf" alt="firicel house" title="firicel house" onclick="Input()" href="cutsceen6.html" coords="236,197,44" shape="circle">
+      <area target="_blank" id="cr" alt="roby house" title="roby house" onclick="Input()" href="cutsceen4.html" coords="521,98,44" shape="circle">
+      <area target="_blank" id="cc" alt="celentano house" title="celentano house" onclick="Input()" href="cutsceen3.html" coords="569,274,44" shape="circle">
+      <area target="_blank" id="ca" alt="Geanina house" title="geanina house" onclick="Input()" href="cutsceen5.html" coords="782,428,49" shape="circle">
+  </map>
+  <div id="ce"><p style="font-size: xxx-large;">Input?</p></div>
+  <div id="fade"></div>
+  <div class="mision" id="main">
+    <p id="loadingh">Bordul De Misiuni</p>
+    <p  id="unu">1) bate-l pe bobitza</p>
+<p  id="doi">2</p>
+<p  id="trei">3</p>
+<p id="patru">4</p>
+<p id="cinci">5</p>
+<p  id="sase">6</p>
+<p  id="sapte">7</p>
+<p  id="opt">8</p>
+  </div>
+
+  
+</head>
+<body>
+ 
+  <script src="harta.js"></script>
+</body>
+</html>

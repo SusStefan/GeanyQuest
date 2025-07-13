@@ -1,0 +1,1 @@
+setTimeout(function() {window.location.href="ardeles/plottwist.html"  },34000)

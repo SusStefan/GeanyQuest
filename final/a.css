@@ -1,0 +1,219 @@
+
+
+#first
+{
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  background-image: url("borci.PNG");
+  background-size: cover;
+}
+#textbox{
+  position:absolute;
+  width:600px;
+  height: 300px;
+  background-color: wheat;
+  left:10%;
+  top:30%;
+  border: 10px solid red;
+}
+#txt{
+  color: green;
+  font-size: 300%;
+
+}
+#personaj{
+width: 600px;
+height: 360px;
+position: absolute;
+background-size: cover;
+top:230px;
+right:200px;  
+background-image: url("../sad.png");
+
+}
+#geany{ position: absolute;
+  display: none;
+  width: 120px;
+  height: 220px;
+  top:20%;
+  left:20%;
+  background-size: cover;
+  background-image: url("k.png");
+}
+#dorica{ position: absolute;
+  display: none;
+  width: 120px;
+  height: 220px;
+  top:20%;
+  right:20%;
+  background-size: cover;
+  background-image: url("dorel.png");
+}
+#bobitza{ position: absolute;
+  display: none;
+  width: 320px;
+  height: 280px;
+  top:20%;
+  right:30%;
+  background-image: url("../componente/imagine/geany.png");
+}
+#gean{display: none;}
+#kk{position: absolute;
+  display: none;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("xddd.jpg");
+  height: 100%;
+
+}
+.displai{ position: absolute;
+ display: none;
+ width: 98.8%;
+ height: 240px;
+ background-color: black;
+ border: 10px solid limegreen;
+ bottom:1px;
+ left:0px; 
+}
+#dore,#geanis{
+  color: aliceblue;
+  font-size: 200%;
+  }
+#mana{
+  top:580px;
+  height:50px;
+  width:400px;
+}
+#info
+{ background-size: cover;
+  top:50px;
+  height:450px;
+  width:320px;
+}
+#imag{background-size: cover;
+  width:320px;
+  height: 450px;
+}
+#eimag{background-size: cover;
+  width:320px;
+  height: 450px;
+}
+#jhp{
+  color: aliceblue;
+  font-size: 250%;
+  position: absolute;
+  top:-40px;
+}
+#stuyn{
+  display: none;
+  position: absolute;
+  left:1100px;
+  top:100px;
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  background-image: url("decks/parpalac.png");
+}
+.text{position: absolute;
+  width: 200px;
+  height: 100px;
+  background-color: cadetblue;
+  border:10px solid blue;
+  left:400px;
+  top:10px;
+}
+#dor{display: none;
+  left:1200px;
+  background-color: magenta;
+  border:10px solid purple;
+}
+#jehp,#jdhp,#ca{
+  color: aliceblue;
+  font-size: 250%;
+  position: absolute;
+  top:-40px;
+}
+#einfo
+{ position: absolute;
+  left:1570px;
+  top:50px;
+  height:450px;
+  width:320px;
+}
+#hp
+{ position: absolute;
+  left:400px;
+  top:400px;
+  height:50px;
+  width:100px;
+  border: 10px solid blue
+}
+#ehp
+{ position: absolute;
+  left:1200px;
+  top:420px;
+  height:50px;
+  width:100px;
+  border: 10px solid red;
+}
+#dhp{
+  position: absolute;
+  left:1420px;
+  top:420px;
+  height:50px;
+  width:100px;
+  border: 10px solid purple;
+}
+#count{
+  color:white;
+  font-size: 180%;
+  position: relative;
+  top:-20px;
+  float:left;
+}
+#man{
+  color:yellow;
+  font-size: 180%;
+  position: relative;
+  top:-20px;
+  left:30%;
+}
+.card{ 
+  background-size: cover;
+ position: absolute;
+ bottom: 25px;
+ left:420px;
+ width: 170px;
+ height:200px;
+ border: 5px solid limegreen;
+}
+#one{ display: none;}
+#two{ display: none;
+  left:650px;
+}
+#three{ display: none;
+  left:880px;
+}
+#four{ display: none;
+  left:1110px;
+  border: 5px solid yellow;
+}
+#fight
+{
+ display: none; 
+ position: absolute;
+ width: 10%;
+ height: 100px;
+ background-color: black;
+ border: 10px solid limegreen;
+ bottom:80px;
+ left:60px; 
+}

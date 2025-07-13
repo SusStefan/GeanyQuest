@@ -1,0 +1,1 @@
+setTimeout(function(){window.location.href="componente/fight.html";}, 22000)

@@ -1,0 +1,1 @@
+setTimeout(function(){window.location.href="clicker/fir.html";}, 35000)

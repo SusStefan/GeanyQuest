@@ -1,0 +1,162 @@
+body{
+  background-color:rgb(23,53,40);
+}
+video{
+  position: relative;
+  left:250px;
+}
+#loading{
+  color:white;
+  font-size: 100px;
+  top:-50px
+}
+.geany{
+ 
+  position: absolute;
+  top:-30px;
+}
+#minfo{
+  position: relative;
+  width: 100px;
+  height: 50px;
+  background-color: yellowgreen;
+  z-index: 200;
+  left:700px;
+  top:-180px;
+  text-align: center;
+}
+#stanga{
+  position: relative;
+  width: 100px;
+  height: 50px;
+  background-color: yellowgreen;
+  top:-43px;
+  left:550px;
+  text-align: center;
+}
+#drepta{
+  width: 100px;
+  height: 50px;
+ position: relative;
+  background-color: yellowgreen;
+  top:-111px;
+  left:850px;
+  text-align: center;
+}
+
+#info{
+  color:yellowgreen;
+  font-size:50px;
+  top:-20px;
+}
+audio
+{ display: none;
+  position: relative;
+  top:-250px;
+}
+p{
+  color:rgb(13, 41, 13);
+  position:relative;
+  top:30px;
+  text-align: center;
+  font-size: large;
+  font-family: Impact;
+}
+img{
+  position: relative;
+  left:600px;
+}
+#joaca{
+  width: 100px;
+  height: 100px;
+ position: relative;
+  background-color: yellowgreen;
+  top:-411px;
+  left:1050px;
+ 
+}
+#img{width: 300px;height:200px;top:-30px;}
+b{
+  color:white;
+  position: relative;
+  top:15px;
+}
+
+.slider { position:relative;
+  left:140px;
+  top:10px;
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 70%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+#close{
+  position: absolute;
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  left:949px;
+  top:1px
+  
+
+}
+#op{
+  display: none;
+  position:absolute;
+  z-index: 3;
+  width: 1000px;
+  height: 650px;
+  left:300px;
+  top:50px;
+  background-color: greenyellow;
+}
+#play{position:relative;
+  width:200px;
+  height:75px;
+  background-color: lime;
+  left:700px;
+  top:50px;
+}
+#options{position:relative;
+  width:200px;
+  height:75px;
+  background-color: lime;
+  left:700px;
+  top:75px;
+}
+#exit{position:relative;
+  width:200px;
+  height:75px;
+  background-color: lime;
+  left:700px;
+  top:100px;
+}

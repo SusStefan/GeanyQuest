@@ -1,0 +1,11 @@
+body{background-color: green;}
+#canvas{border: 5px solid white;
+  background-image: url("Imagini/drum.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+width:1600px;
+height: 840px;}

@@ -1,0 +1,61 @@
+body{
+  background-image:url("casa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#knife{
+  display: none;
+  width:120px;
+  left:1300px;
+  top:530px;
+  height: 120px;
+  position: absolute;
+  background-size: cover;
+  background-image: url("knife.png");
+}
+#dulap{position: absolute;
+  width: 50px;
+  height: 50px;
+  top:620px;
+  left:1400px
+}
+img{
+  flex-wrap: wrap;
+ position: relative;
+ left: 700px;
+ top:100px;
+}
+.dialog{
+  position: relative;
+  background-color: beige;
+  z-index: 200;
+  border:10px solid black;
+  width:500px;
+  height:100px;
+}
+#aa{
+  background-color: burlywood;
+  border:10px solid chocolate;
+  text-align: center;
+}
+p{
+  color: brown;
+  font-size: 30px;
+  font-family: Impact;
+}
+#bobit{
+  display: none;
+ position:relative;
+height: 200px;
+left:200px;
+top:-400px;
+
+}
+
+
+#vb{
+  color:green;
+  font-size: 30px;
+  font-family: cursive;
+}
